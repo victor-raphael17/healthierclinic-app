@@ -1,0 +1,31 @@
+services:
+  db:
+    container_name: db
+    build: ./db
+    volumes:
+      - mysqldata:/var/lib/mysql
+    networks:
+      mysharednet:
+        ipv4_address: 172.19.0.6
+  web:
+    container_name: web
+    build: ./nginx
+    ports:
+      - 8088:80
+      - 4430:443
+    networks:
+      mysharednet:
+        ipv4_address: 172.19.0.5
+  phpfpm:
+    container_name: phpfpm
+    build: ./php
+    networks:
+      mysharednet:
+        ipv4_address: 172.19.0.7
+
+volumes:
+  mysqldata:
+
+networks:
+      mysharednet:
+        external: true
