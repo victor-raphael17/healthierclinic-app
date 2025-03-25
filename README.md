@@ -24,22 +24,21 @@ This PHP/CRUD application was created for educational purposes only. The origina
     - cd healthierclinic-app/bind
 
 10. Edit the docker compose file.
-    Adjust the environment variables and the ports section to match your IPv4 and the correct timezone. You can check your IPv4 by running "ip -c -br a", this will guarantee a brief and colorful 
-    output, making it easy to you identify the IP.
-    If you're using wifi, look for something like "wlp0s" and if you're on wired connection, look for something like "eth0", "enp" or "ens33".
+10-1. Adjust the environment variables and the ports section to match your IPv4 and the correct timezone. You can check your IPv4 by running "ip -c -br a", this will guarantee a brief and colorful output, making it easy to you identify the IP.
+10-2. If you're using wifi, look for something like "wlp0s" and if you're on wired connection, look for something like "eth0", "enp" or "ens33".
 
-12. If your IP starts with "192.168" the bind configuration is done. If doesn't, then you'll need to change the "acl internal" directive, located at bind/config/named.conf, to match with yours.
+11. If your IP starts with "192.168" the bind configuration is done. If doesn't, then you'll need to change the "acl internal" directive, located at bind/config/named.conf, to match with yours.
 
-13. Run the bind container. After this step, you should see the bind container running continously, without crashing or anything like that.
+12. Run the bind container. After this step, you should see the bind container running continously, without crashing or anything like that.
      - docker compose up -d
 
-14. Go back to healthierclinic-app
+13. Go back to healthierclinic-app
      - cd ..
 
-15. Run the composer file
+14. Run the composer file
      - docker compose up -d
    
-16. Run compose down to stop the project
+15. Run compose down to stop the project
      - docker compose down
 
-17. To purge every data you downloaded, delete the project directory and run "docker system prune"
+16. To purge every data you downloaded, delete the project directory and run "docker system prune"
