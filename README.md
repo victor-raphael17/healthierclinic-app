@@ -4,8 +4,9 @@ This PHP/CRUD application was created for educational purposes only. The origina
 1. Update your package lists
     - sudo apt update -y
 
-3. Upgrade your packages
+3. Upgrade your packages and then restart your terminal session
     - sudo apt upgrade -y
+    - exit
     
 4. Install Docker Engine and run the hello-world test
     - https://docs.docker.com/engine/install/
