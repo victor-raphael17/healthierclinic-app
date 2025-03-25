@@ -6,7 +6,7 @@ services:
       - mysqldata:/var/lib/mysql
     networks:
       mysharednet:
-        ipv4_address: 172.19.0.6
+        ipv4_address: 172.19.0.4
   web:
     container_name: web
     build: ./nginx
@@ -15,13 +15,13 @@ services:
       - 4430:443
     networks:
       mysharednet:
-        ipv4_address: 172.19.0.5
+        ipv4_address: 172.19.0.3
   phpfpm:
     container_name: phpfpm
     build: ./php
     networks:
       mysharednet:
-        ipv4_address: 172.19.0.7
+        ipv4_address: 172.19.0.5
 
 volumes:
   mysqldata:
