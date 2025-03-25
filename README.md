@@ -18,7 +18,7 @@ This PHP/CRUD application was created for educational purposes only. The origina
     - docker network create --subnet=172.19.0.0/22 mysharednet
       
 7. Clone this project repository
-    - https://github.com/victor-raphael17/healthierclinic-app.git
+    - git clone https://github.com/victor-raphael17/healthierclinic-app.git
       
 8. Go to 'healthierclinic-app/bind'
     - cd healthierclinic-app/bind
