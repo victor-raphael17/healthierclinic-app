@@ -23,8 +23,7 @@ This PHP/CRUD application was created for educational purposes only. The origina
 9. Go to 'healthierclinic-infra/bind'
     - cd healthierclinic-infra
 
-10. Edit the "environment" and the "port" sections, adjusting it to your own IPv4 and the right timezone
-10.1. You can check your IPv4 running "ip -c -br a" this will guarantee a brief and colorful output, making easy to you identify the IP. If you're using wifi, look for something like "wlp0s" and if you're using wired connection, look for something like "eth0", "enp" or "ens33"
+10. Edit the "environment" and the "port" sections, adjusting it to your own IPv4 and the right timezone. You can check your IPv4 running "ip -c -br a" this will guarantee a brief and colorful output, making easy to you identify the IP. If you're using wifi, look for something like "wlp0s" and if you're using wired connection, look for something like "eth0", "enp" or "ens33"
 
 11. Executar o docker compose (docker compose up -d)
 13. Após isso, o site já estará disponível para acessar por meio do navegador
