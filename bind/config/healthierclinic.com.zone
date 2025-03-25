@@ -12,7 +12,6 @@ $ORIGIN healthierclinic.com.
         IN      NS      ns1.healthierclinic.com.
 
 ns1     IN      A       172.19.0.2
-@       IN      MX      10 mail.healthierclinic.com.
 web     IN      A       172.19.0.3
 db      IN      A       172.19.0.4
 phpfpm  IN      A       172.19.0.5
