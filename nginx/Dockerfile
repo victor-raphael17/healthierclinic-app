@@ -18,7 +18,6 @@ COPY ./default.conf /etc/nginx/conf.d/default.conf
 COPY ./crudphp /var/www/html
 
 EXPOSE 80
-EXPOSE 443
 EXPOSE 22
 
 CMD ["/bin/sh", "-c", "/usr/sbin/sshd && nginx -g 'daemon off;'"]
