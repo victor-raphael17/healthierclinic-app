@@ -28,7 +28,7 @@ This PHP/CRUD application was created for educational purposes only. The origina
     output, making it easy to you identify the IP.
     If you're using wifi, look for something like "wlp0s" and if you're on wired connection, look for something like "eth0", "enp" or "ens33".
 
-12. If your IP starts with "192.168" the bind configuration is fine. If doesn't, then you'll need to change the "acl internal" directive, located at bind/config/named.conf, to match with yours.
+12. If your IP starts with "192.168" the bind configuration is done. If doesn't, then you'll need to change the "acl internal" directive, located at bind/config/named.conf, to match with yours.
 
 13. Run the bind container. After this step, you should see the bind container running continously, without crashing or anything like that.
      - docker compose up -d
