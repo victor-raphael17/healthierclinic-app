@@ -10,7 +10,7 @@ This PHP/CRUD application was created for educational purposes only. The origina
 4. Install Docker Engine and run the hello-world test
     - https://docs.docker.com/engine/install/
       
-5. Add user to docker group, using append and refresh the group
+5. Add your user to docker group using append and then refresh the group
     - sudo usermod -aG docker ubuntu
     - newgrp docker
       
