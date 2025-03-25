@@ -7,7 +7,7 @@ This PHP/CRUD application was created for educational purposes only. The origina
 3. Upgrade your packages
     - sudo apt upgrade -y
     
-4. Install Docker engine and run the hello-world test
+4. Install Docker Engine and run the hello-world test
     - https://docs.docker.com/engine/install/
       
 5. Add user to docker group, using append and refresh the group
