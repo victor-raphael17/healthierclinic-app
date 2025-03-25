@@ -40,5 +40,3 @@ This PHP/CRUD application was created for educational purposes only. The origina
    
 15. Run compose down to stop the project
      - docker compose down
-
-16. To purge every data you downloaded, delete the project directory and run "docker system prune"
