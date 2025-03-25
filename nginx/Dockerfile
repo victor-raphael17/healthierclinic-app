@@ -12,7 +12,6 @@ RUN mkdir /var/www/
 RUN mkdir /var/www/html
 RUN ssh-keygen -A
 
-COPY ./certs /etc/nginx/certs
 COPY ./sshd_config /etc/ssh/sshd_config
 COPY ./default.conf /etc/nginx/conf.d/default.conf
 COPY ./crudphp /var/www/html
