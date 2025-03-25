@@ -23,7 +23,11 @@ This PHP/CRUD application was created for educational purposes only. The origina
 8. Go to 'healthierclinic-infra/bind'
     - cd healthierclinic-infra/bind
 
-9. Edit the docker compose file. Adjust the environment variables and the ports section to match your IPv4 and the correct timezone. You can check your IPv4 by running "ip -c -br a", this will guarantee a brief and colorful output, making it easy to you identify the IP. If you're using wifi, look for something like "wlp0s" and if you're on wired connection, look for something like "eth0", "enp" or "ens33"
+10. Edit the docker compose file. Adjust the environment variables and the ports section to match your IPv4 and the correct timezone. You can check your IPv4 by running "ip -c -br a", this will guarantee a brief and colorful output, making it easy to you identify the IP. If you're using wifi, look for something like "wlp0s" and if you're on wired connection, look for something like "eth0", "enp" or "ens33"
 
-10. Executar o docker compose (docker compose up -d)
-11. Após isso, o site já estará disponível para acessar por meio do navegador
+11. Run the bind container. After this step, you should see the bind container running continously, without crashing or anything like that.
+     - docker compose up -d
+
+
+
+12. Após isso, o site já estará disponível para acessar por meio do navegador
