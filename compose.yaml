@@ -4,6 +4,8 @@ services:
     build: ./db
     volumes:
       - mysqldata:/var/lib/mysql
+    env_file:
+      - "db/.env"
     networks:
       mysharednet:
         ipv4_address: 172.19.0.4
