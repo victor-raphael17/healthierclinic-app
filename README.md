@@ -24,8 +24,8 @@ This PHP/CRUD application was created for educational purposes only. The origina
     - cd healthierclinic-app/bind
 
 10. Edit the docker compose file.
-10-1. Adjust the environment variables and the ports section to match your IPv4 and the correct timezone. You can check your IPv4 by running "ip -c -br a", this will guarantee a brief and colorful output, making it easy to you identify the IP.
-10-2. If you're using wifi, look for something like "wlp0s" and if you're on wired connection, look for something like "eth0", "enp" or "ens33".
+    - Adjust the environment variables and the ports section to match your IPv4 and the correct timezone. You can check your IPv4 by running "ip -c -br a", this will guarantee a brief and colorful output, making it easy to you identify the IP.
+    - If you're using wifi, look for something like "wlp0s" and if you're on wired connection, look for something like "eth0", "enp" or "ens33".
 
 11. If your IP starts with "192.168" the bind configuration is done. If doesn't, then you'll need to change the "acl internal" directive, located at bind/config/named.conf, to match with yours.
 
