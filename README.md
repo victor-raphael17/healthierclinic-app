@@ -1,17 +1,23 @@
 # Healthierclinic
-Dockerized Nginx, PHP and MySql CRUD application.
-This PHP/CRUD application was created for educational purposes only. The original PHP code can be found at "https://codeshack.io/crud-application-php-pdo-mysql/#packages".
+
+A Dockerized Nginx, PHP, and MySQL CRUD application.
+
+This PHP CRUD application was created for educational purposes. The original PHP code can be found [here](https://codeshack.io/crud-application-php-pdo-mysql/#packages).
 
 ## How to Run
 
-1. Update your package lists
-    - **sudo apt update -y**
+### 1. Update your package lists
+```
+sudo apt update -y
+```
 
-3. Upgrade your packages
-    - **sudo apt upgrade -y**
-      
-4. Install Docker Engine and run the hello-world test
-    - **https://docs.docker.com/engine/install/**
+### 2. Upgrade your packages
+```
+sudo apt upgrade -y
+```
+
+### 3. Install Docker Engine and run the hello-world test
+[Install Docker Engine](https://docs.docker.com/engine/install/)
       
 5. Add your user to docker group using append and then refresh the group
     - **sudo usermod -aG docker ubuntu**
