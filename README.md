@@ -27,6 +27,8 @@ This PHP/CRUD application was created for educational purposes only. The origina
 
 14. Run the composer file
      - **docker compose up -d**
+       
+15. Now you can access the application through your IPv4, it's running on 80 port
    
 15. Run compose down to stop the project
      - docker compose down
