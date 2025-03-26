@@ -33,4 +33,4 @@ This PHP CRUD application was created for educational purposes. The original PHP
 ### 11. Now you can access the application through your IPv4, it's running on 80 port
    
 ### 12. Run compose down to stop the project
-     - **docker compose down**
+     docker compose down
