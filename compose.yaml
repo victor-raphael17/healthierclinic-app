@@ -13,8 +13,7 @@ services:
     container_name: web
     build: ./nginx
     ports:
-      - 8088:80
-      - 4430:443
+      - 80:80
     networks:
       mysharednet:
         ipv4_address: 172.19.0.3
