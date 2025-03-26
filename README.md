@@ -7,20 +7,16 @@ This PHP CRUD application was created for educational purposes. The original PHP
 ## How to Run
 
 ### 1. Update your package lists
-```
-sudo apt update -y
-```
+``` sudo apt update -y ```
 
 ### 2. Upgrade your packages
-```
-sudo apt upgrade -y
-```
+``` sudo apt upgrade -y ```
 
 ### 3. Install Docker Engine and run the hello-world test
-[Install Docker Engine](https://docs.docker.com/engine/install/)
+      - [Install Docker Engine](https://docs.docker.com/engine/install/)
       
-5. Add your user to docker group using append and then refresh the group
-    - **sudo usermod -aG docker ubuntu**
+### 4. Add your user to docker group using append and then refresh the group
+sudo usermod -aG docker ubuntu**
     - **newgrp docker**
       
 6. Create the docker subnet that bind and the app will use (they're setted to use 172.19.0.0/24 range)
