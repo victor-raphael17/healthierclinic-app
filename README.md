@@ -22,15 +22,15 @@ This PHP CRUD application was created for educational purposes. The original PHP
 ### 5. Create the docker subnet that bind and the app will use (they're setted to use 172.19.0.0/24 range)
 ``` docker network create --subnet=172.19.0.0/22 mysharednet ```
       
-8. Clone this project repository
-    - **git clone https://github.com/victor-raphael17/healthierclinic-app.git**
+### 8. Clone this project repository
+      git clone https://github.com/victor-raphael17/healthierclinic-app.git
       
-14. Make the **.env** file in the **healthierclinic-app/db** directory and set the **MYSQL_ROOT_PASSWORD** variable
+### 9. Make the **.env** file in the **healthierclinic-app/db** directory and set the **MYSQL_ROOT_PASSWORD** variable
 
-14. Run the composer file
-     - **docker compose up -d**
+### 10. Run the composer file
+     docker compose up -d
        
-15. Now you can access the application through your IPv4, it's running on 80 port
+### 11. Now you can access the application through your IPv4, it's running on 80 port
    
-15. Run compose down to stop the project
+### 12. Run compose down to stop the project
      - **docker compose down**
